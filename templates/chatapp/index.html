@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CDP Chatbot</title>
+</head>
+<body>
+    <h1>CDP Support Chatbot</h1>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="question" placeholder="Ask a question">
+        <button type="submit">Send</button>
+    </form>
+    {% if question %}
+        <p><strong>You:</strong> {{ question }}</p>
+        <p><strong>Chatbot:</strong> {{ answer }}</p>
+    {% endif %}
+</body>
+</html>
