@@ -97,6 +97,7 @@ CHATBOT_APP/                     # Root directory of the Django project
 │── README.md                      # Project documentation
 │── requirements.txt               # List of required dependencies for the project
 
+![image](https://github.com/user-attachments/assets/a7c6b259-2042-4ecb-91ef-ccf3ae2d7134)
 
 ⚙️ How It Works
 
