@@ -59,44 +59,6 @@ o Virtual environment (recommended)
 
 📂 Project Structure
 
-
-CHATBOT_APP/                     # Root directory of the Django project
-│── CDP_bot/                     # Main Django project directory (project settings and configurations)
-│   │── __pycache__/              # Compiled Python files for optimization
-│   │── __init__.py              # Marks this directory as a Python package
-│   │── asgi.py                  # ASGI entry point for asynchronous support
-│   │── settings.py               # Main Django settings file (database, installed apps, middleware, etc.)
-│   │── urls.py                   # Project-level URL configurations
-│   │── wsgi.py                   # WSGI entry point for deploying the project
-│
-│── chatapp/                      # Django app for chatbot functionality
-│   │── __pycache__/              # Compiled Python files for optimization
-│   │── migrations/               # Database migration files directory
-│   │   │── __pycache__/          # Compiled migration files
-│   │   │── __init__.py           # Marks this directory as a Python package
-│   │── __init__.py               # Marks this directory as a Python package
-│   │── admin.py                  # Admin panel configurations
-│   │── apps.py                   # Application configuration
-│   │── models.py                 # Database models (ORM)
-│   │── tests.py                  # Test cases for the app
-│   │── urls.py                   # App-level URL configurations
-│   │── utils.py                  # Utility functions for chatbot operations
-│   │── views.py                  # Views (API endpoints or page responses)
-│
-│── templates/chatapp/            # Directory for HTML templates
-│   │── index.html                 # Frontend HTML file for the chatbot
-│
-│── venv/                         # Virtual environment for managing dependencies
-│
-│── .gitignore                    # Files to be ignored by Git
-│── ~README.md                     # Temporary backup of README.md
-│── cdp_docs_cache.json            # Cache file (probably related to documentation)
-│── db.sqlite3                     # SQLite database file
-│── demo_cache.sqlite              # Another SQLite cache database
-│── manage.py                      # Django's command-line utility for managing the project
-│── README.md                      # Project documentation
-│── requirements.txt               # List of required dependencies for the project
-
 ![image](https://github.com/user-attachments/assets/a7c6b259-2042-4ecb-91ef-ccf3ae2d7134)
 
 ⚙️ How It Works
