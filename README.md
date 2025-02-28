@@ -17,7 +17,7 @@ Follow these steps to set up and run the chatbot on your local machine.
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your_repository_url>
+    git clone https://github.com/PalGabani/CDP_Chat_bot.git
     cd <your_repository_directory>
     ```
 
